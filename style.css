@@ -1,0 +1,122 @@
+/* Set ALL HTML elements with border-box sizing */
+{
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+/* ----------- Structure! ----------- */
+
+body {
+  background-image: url(images/white-fabric-patter.jpg);
+  margin: 0; 
+}
+
+header {
+  height: 5px;
+  background-image: url(images/white-fabric-patter.jpg);
+  background-color: mediumaquamarine;
+}
+
+footer {
+  height: 40px;
+  background-image: url(images/white-fabric-patter.jpg);
+  background-color: mediumaquamarine;
+}
+
+.wrapper {
+	width: 580px;
+	margin: auto;	
+}
+
+/* ----------- Logo! ----------- */
+
+h1 {
+  font-family: 'Crimson Text', serif;
+	color: #ffffff;
+  text-shadow: 0 0 10px #fff;
+	margin: 0px;
+	padding-top: 24px;
+	font-size: 48px;
+	text-align: center;
+}
+
+/* ----------- Type! ----------- */
+
+h2 h3 { 
+  color: black;
+  font-family: 'Crimson Text', serif;
+}
+
+h2 { font-size: 60px;
+    text-align: center;
+   }
+h3 { font-size: 35px;
+}
+
+p {
+  font-style: oblique;
+}
+
+p, li {
+  font-family: 'Crimson Text', serif;
+  font-size: 25px;
+}
+
+.bullet {
+  list-style-image: url(images/colorful-powder-explosion.png);
+}
+
+
+footer p {
+  color: black;
+  text-align: center;
+  padding-top: 10px;
+  background-color: mediumaquamarine;
+  height: 40px;
+  font-size: 18px;
+}
+
+/* ----------- Spacers! ----------- */
+
+.gap-sm {
+    height: 50px;
+    width: 100%;
+}
+
+.gap-lg {
+    height: 200px;
+    width: 100%;
+}
+
+/* ----------- Layout! ----------- */
+
+.emily {
+  background-image: url(images/profesh-em.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  text-align: center;
+  height: 700px;
+}
+
+.emily .content {
+  position: relative;
+  top: 500px;
+}
+
+.emily h1 {
+  font-size: 80px;
+	color: white;
+	text-shadow: 0 0 10px #000;
+    margin-bottom: 20px;
+}
+
+.emily h2 {
+  font-size: 16px;
+	color: white;
+	background: mediumaquamarine;
+	display: inline;
+    padding: 8px 10px;
+    border-radius: 20px;
+}
