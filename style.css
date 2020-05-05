@@ -51,11 +51,8 @@ h2 h3 {
 h2 { font-size: 60px;
     text-align: center;
    }
+   
 h3 { font-size: 35px;
-}
-
-p {
-  font-style: oblique;
 }
 
 p, li {
@@ -76,6 +73,11 @@ footer p {
   height: 40px;
   font-size: 18px;
 }
+
+a:link	{ color: black; }
+a:visited	{ color: darkgrey; }
+a:hover	{ color: mediumaquamarine; }
+a:active	{ color: bisque; }
 
 /* ----------- Spacers! ----------- */
 
